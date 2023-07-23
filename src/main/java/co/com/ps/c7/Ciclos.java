@@ -20,7 +20,7 @@ public class Ciclos {
             System.out.println(nombre);
         }
         System.out.println("- - -Con FOR - - - ");
-        
+
         for (int i = 0; i < miLista1.size(); i++) {
             System.out.println(miLista1.get(i));
         }

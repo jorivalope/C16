@@ -9,9 +9,9 @@ public class EjercicioEnClaseC7 {
         for (int i = 0; i < arregloNumeros.length; i++) {
             for (int j = 0; j < arregloNumeros.length-i-1; j++) {
                 if(arregloNumeros[j] > arregloNumeros[j+1]){
-                    int tmp = arregloNumeros[j+1];
+                    int temporal = arregloNumeros[j+1];
                     arregloNumeros[j+1] = arregloNumeros[j];
-                    arregloNumeros[j] = tmp;
+                    arregloNumeros[j] = temporal;
                 }
             }
         }
